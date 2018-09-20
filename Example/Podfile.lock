@@ -1,0 +1,23 @@
+PODS:
+  - AYICamera (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - AYICamera (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  AYICamera:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AYICamera: 1f3dfb92a8f60b0ff3d6a5d12d4a0431a16ed9d3
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 45af3676ac647984ff252357c12c17ab44b1ed97
+
+COCOAPODS: 1.5.2

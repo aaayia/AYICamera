@@ -1,0 +1,1078 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012D8C5526D01F92F06CAA28D98CCC6D /* CaptureSessionPipelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8168E116AA66D2AA6BF8FDA3BC3AAE /* CaptureSessionPipelineViewController.m */; };
+		0479FD8A1DC51F645BE6A87C75C5FB8C /* PermissionsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A15901F2A0031526E7278033C2C937BD /* PermissionsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04DD22491046C5B958465D96A3F5516D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		04DFBCC4D337320125BE2BC4CA005368 /* PreviewPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34D4C29C75B7D898512D0B76845A7C0 /* PreviewPhotoViewController.m */; };
+		0965179D4E50BE10BDABFD8980548D00 /* PreviewPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A772BD84D3F7D464D24DAD3AF1FE488 /* PreviewPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1039FA6BC4BB20B4C2A1FE19A3889745 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		12842D90C0AFCA1F3AC28C4B5F0FEC86 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		171301FDB08CF18F565C59C8C16FCBF8 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20268EC682347EE1B5AB7F763462100B /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
+		29FD23E9C714393632D49F0723E24062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
+		2A2C0E3245868D4EEB91EA3557FCA7BA /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D1168353A2103859ECC2DABC4F3E20D /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321CC7E95D0996A789F0CB5B7805070F /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33339E126D1AE4539934A0B50D4236F9 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F866D4B1DDCA373D3F0C268DF5C2E3BD /* UIImage+Extension.m */; };
+		3DA1AC40C44BC837F2406D50967E3848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		4259A9DA6659C8558BDA567DAE0FB5BB /* CaptureSessionPipelineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D25A38FF9C50AA122F4E099F03274AB /* CaptureSessionPipelineViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		584AF31CE7EFE4DD6403751FFD585416 /* PermissionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DF79CF7B4F0569DC7FF9AB52D65B8F /* PermissionsManager.m */; };
+		5A4228A717717D663FCD50CA18AFC3F3 /* Pods-AYICamera_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7BA5FF728F325207E5404A49C3D222 /* Pods-AYICamera_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DEBDD8C915E699BBD39B813CE479360 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D15B3A0BFEEDBDDB45A500DB25329F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		6DEC770F748FE75F407AE58298728756 /* Pods-AYICamera_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 099987BA4891830A48D926C6785CDB34 /* Pods-AYICamera_Tests-dummy.m */; };
+		75B85DF916F9D5AAEA423941EEF0DDCC /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
+		7CDFE9F6C79292A9CD6E89BFC545FEA6 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		852FF73597B57645D1E54B29CBFE1AA0 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8752480473FAC2B31E2EB7DF520506FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */; };
+		8D3DDF8F913D09139409372ECA12C1BF /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D6BB297C04783726833999C9BE7D86B /* CaptureSessionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB4F33060E318B6196259CD158E285 /* CaptureSessionCoordinator.m */; };
+		8F94EF795FECBDEBDF088FC265114CEE /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90CC97803BECC901526F561C56416A5A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		94AAA79064A390947EB5EAA1AAAE7CC7 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98742B1D07F2CC4676242414B13058C8 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3D60ED5C6081DC2D522BEE478FDBA5 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5195616ED8946821D891E4056E9C43 /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0337FE26202FFFF7436957134ABE621 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		A2383A0BA428EA857201235AC797D843 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48ECCEFB7BF598F577AEF5C8638FFD6 /* CameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BEBA9B26298F26F3CB561842493409 /* CameraView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7618C668614E01ED7C21B6C2E34F274 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		A8A1356EB8B1A99FB34CD2B1E3E04EC3 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
+		C4D411B3A909BC4BC5739FA7E8BF4804 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8CDA8024CC8C26CCCEA993B51B5CF40 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA04D9B00BB2105F30B16AC366B9D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
+		CDA94B11742CA59B9EEF290AB35FD0F9 /* Pods-AYICamera_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8579D44B82EBE6938C432EE03398BEF /* Pods-AYICamera_Example-dummy.m */; };
+		D36C40AE9AD31CF574FBECA42321550D /* AYICamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D22AAC6957A7A380EA9D336C135A8A4E /* AYICamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C4FC59530A4C02B722ED5CC0090DE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
+		DF2FC872E531876F666DD442155D369C /* AYICamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F8BDDEB178EAABEFA5B3A88E80C182 /* AYICamera-dummy.m */; };
+		E11EA934954FAC66C3AE552148EA1DF4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E84DB79CFFDEEB264130A8F05B80DCDA /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8E3D01ABFCAE9DBBFE9EF591DD68FD2 /* CameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC749F8199412A09D3C21EF1FBB5F286 /* CameraView.m */; };
+		EF432F45E35379DC2A6503191F25CCB9 /* Pods-AYICamera_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F62CEB3BEA77B536EC43324D0071B074 /* Pods-AYICamera_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBF63C6950C5545146BB6782B66365AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
+		FDE63BB201B8FBA5F589855C07C337A7 /* CaptureSessionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB18923A9E1CD859749C902512727ED /* CaptureSessionCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF485451BC29CFE5DA7C08E6E2D05DD7 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20C5A332FD10FFA28AABF716C3960151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38A08D1248F6FF2A36C8EB2BCB4A973;
+			remoteInfo = Masonry;
+		};
+		6388920427040F7EC18780F66831A5ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38A08D1248F6FF2A36C8EB2BCB4A973;
+			remoteInfo = Masonry;
+		};
+		A12EE6694422D9DB3D4642412E02E786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334D86D00D50C25A5A381269A36B6A3B;
+			remoteInfo = AYICamera;
+		};
+		FF20B7628F608D1795D5525FCF45A624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E896D99BB6CE5AFDEF2357AA5D85EAD3;
+			remoteInfo = "Pods-AYICamera_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E9AFB9B08F9C42E09E9C6CE24BC626 /* Pods-AYICamera_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYICamera_Tests-resources.sh"; sourceTree = "<group>"; };
+		07604C2AF4157E84DFD492C5D19B6B80 /* AYICamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AYICamera.framework; path = AYICamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		099987BA4891830A48D926C6785CDB34 /* Pods-AYICamera_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYICamera_Tests-dummy.m"; sourceTree = "<group>"; };
+		1C5195616ED8946821D891E4056E9C43 /* UIImage+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extension.h"; path = "AYICamera/Classes/UIImage+Extension.h"; sourceTree = "<group>"; };
+		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		30BEBA9B26298F26F3CB561842493409 /* CameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CameraView.h; path = AYICamera/Classes/CameraView.h; sourceTree = "<group>"; };
+		35D709CA614946BDC95574E77BD76674 /* AYICamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AYICamera.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3697DB2528934D36B2B59F7BDEB626C3 /* Pods-AYICamera_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYICamera_Example.modulemap"; sourceTree = "<group>"; };
+		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		38DF79CF7B4F0569DC7FF9AB52D65B8F /* PermissionsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PermissionsManager.m; path = AYICamera/Classes/PermissionsManager.m; sourceTree = "<group>"; };
+		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3A772BD84D3F7D464D24DAD3AF1FE488 /* PreviewPhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PreviewPhotoViewController.h; path = AYICamera/Classes/PreviewPhotoViewController.h; sourceTree = "<group>"; };
+		3E835DE789E4A97BE79C861D72250EBE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		454A6FC07C96F21F25C4AC86A51D53B9 /* Pods_AYICamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AYICamera_Tests.framework; path = "Pods-AYICamera_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3483E57C259A75EC1D2318645061E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		54EBF6C5782F13C0596469AECC3ACBB0 /* Pods_AYICamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AYICamera_Example.framework; path = "Pods-AYICamera_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C8D0F0AB50CD1ED0F218D62D1231D9 /* Pods-AYICamera_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYICamera_Example-frameworks.sh"; sourceTree = "<group>"; };
+		58F8BDDEB178EAABEFA5B3A88E80C182 /* AYICamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYICamera-dummy.m"; sourceTree = "<group>"; };
+		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		5D25A38FF9C50AA122F4E099F03274AB /* CaptureSessionPipelineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CaptureSessionPipelineViewController.h; path = AYICamera/Classes/CaptureSessionPipelineViewController.h; sourceTree = "<group>"; };
+		5D7BA5FF728F325207E5404A49C3D222 /* Pods-AYICamera_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYICamera_Tests-umbrella.h"; sourceTree = "<group>"; };
+		601EA06FC060205623518891329AF7F8 /* Pods-AYICamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYICamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		69C7748E2EEBA460652A1D2178E2B2E1 /* Pods-AYICamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYICamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8384FE05BE37F15A7732451AC48C26CB /* Pods-AYICamera_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYICamera_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86761210514C66551793EA125690E59C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8FE861922A8DC7E3AF1215CF6D8B1222 /* Pods-AYICamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYICamera_Example.release.xcconfig"; sourceTree = "<group>"; };
+		911C7FE2F1F3E92B2CC121FAD9495BE6 /* Pods-AYICamera_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYICamera_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		99A838CCAFBEBC55739E68C3CA2661F5 /* Pods-AYICamera_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYICamera_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D6094FC4FC11FB04DB7385EC5425D6B /* AYICamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYICamera-prefix.pch"; sourceTree = "<group>"; };
+		9F20E88935FBF11833E591C907A7C5E7 /* AYICamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYICamera.modulemap; sourceTree = "<group>"; };
+		9F84C06026AD97602BE215AB97C22D3A /* Pods-AYICamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYICamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9FD31082D438B3B101FBF031E75DA27F /* AYICamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYICamera.xcconfig; sourceTree = "<group>"; };
+		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A15901F2A0031526E7278033C2C937BD /* PermissionsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PermissionsManager.h; path = AYICamera/Classes/PermissionsManager.h; sourceTree = "<group>"; };
+		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		A5004F27CE7E9CC5D3F421B1C34C3FDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7600D67217F7A918D07722165FD9920 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		AEBF7562EEE7A85854D23E3A67925FA9 /* Pods-AYICamera_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYICamera_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF9E9BB99C0BC88C977DB9C26392F7AF /* Pods-AYICamera_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYICamera_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BBB18923A9E1CD859749C902512727ED /* CaptureSessionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CaptureSessionCoordinator.h; path = AYICamera/Classes/CaptureSessionCoordinator.h; sourceTree = "<group>"; };
+		BF8168E116AA66D2AA6BF8FDA3BC3AAE /* CaptureSessionPipelineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CaptureSessionPipelineViewController.m; path = AYICamera/Classes/CaptureSessionPipelineViewController.m; sourceTree = "<group>"; };
+		C0BB4F33060E318B6196259CD158E285 /* CaptureSessionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CaptureSessionCoordinator.m; path = AYICamera/Classes/CaptureSessionCoordinator.m; sourceTree = "<group>"; };
+		C34D4C29C75B7D898512D0B76845A7C0 /* PreviewPhotoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PreviewPhotoViewController.m; path = AYICamera/Classes/PreviewPhotoViewController.m; sourceTree = "<group>"; };
+		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CD05039AA0E3D34381A890F0BF9EB030 /* Pods-AYICamera_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYICamera_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D22AAC6957A7A380EA9D336C135A8A4E /* AYICamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYICamera-umbrella.h"; sourceTree = "<group>"; };
+		D3B155B221D10AA704E696F7CE2E87AD /* Pods-AYICamera_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYICamera_Example-resources.sh"; sourceTree = "<group>"; };
+		DDD16DFDAF71CA438F58E82C73C16177 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		E8579D44B82EBE6938C432EE03398BEF /* Pods-AYICamera_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYICamera_Example-dummy.m"; sourceTree = "<group>"; };
+		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F62CEB3BEA77B536EC43324D0071B074 /* Pods-AYICamera_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYICamera_Example-umbrella.h"; sourceTree = "<group>"; };
+		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F866D4B1DDCA373D3F0C268DF5C2E3BD /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "AYICamera/Classes/UIImage+Extension.m"; sourceTree = "<group>"; };
+		FC749F8199412A09D3C21EF1FBB5F286 /* CameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CameraView.m; path = AYICamera/Classes/CameraView.m; sourceTree = "<group>"; };
+		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48940C415C61A318397F83F99C0D319E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA04D9B00BB2105F30B16AC366B9D24 /* Foundation.framework in Frameworks */,
+				20268EC682347EE1B5AB7F763462100B /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA258CA58D75587894145E8D2EDF6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C4FC59530A4C02B722ED5CC0090DE7 /* Foundation.framework in Frameworks */,
+				8752480473FAC2B31E2EB7DF520506FD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EAC52F65DC1696A95ED83B4A74854D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF63C6950C5545146BB6782B66365AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E08F7C7774B7908606C62C8505748F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FD23E9C714393632D49F0723E24062 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B10D48361B71D8E61AE60B6CDD4B50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCFFCEA0A26E02610C10D9DADE22A35A /* Pods-AYICamera_Example */,
+				B04A3A75A60E3D85C4AF62997ECCC4BA /* Pods-AYICamera_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59511511C2B4BC905C933DCC67E365C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */,
+				DC7E422848DE4538BD67FA85E4EF5FAF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F37A4E2C83115D2D40A9E397AEE1514B /* Development Pods */,
+				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
+				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
+				B9B990CB89F1293B1019760FE8E4E729 /* Products */,
+				15B10D48361B71D8E61AE60B6CDD4B50 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F3C2FAC8DD88338C99643FEF0C56B85 /* AYICamera */ = {
+			isa = PBXGroup;
+			children = (
+				30BEBA9B26298F26F3CB561842493409 /* CameraView.h */,
+				FC749F8199412A09D3C21EF1FBB5F286 /* CameraView.m */,
+				BBB18923A9E1CD859749C902512727ED /* CaptureSessionCoordinator.h */,
+				C0BB4F33060E318B6196259CD158E285 /* CaptureSessionCoordinator.m */,
+				5D25A38FF9C50AA122F4E099F03274AB /* CaptureSessionPipelineViewController.h */,
+				BF8168E116AA66D2AA6BF8FDA3BC3AAE /* CaptureSessionPipelineViewController.m */,
+				A15901F2A0031526E7278033C2C937BD /* PermissionsManager.h */,
+				38DF79CF7B4F0569DC7FF9AB52D65B8F /* PermissionsManager.m */,
+				3A772BD84D3F7D464D24DAD3AF1FE488 /* PreviewPhotoViewController.h */,
+				C34D4C29C75B7D898512D0B76845A7C0 /* PreviewPhotoViewController.m */,
+				1C5195616ED8946821D891E4056E9C43 /* UIImage+Extension.h */,
+				F866D4B1DDCA373D3F0C268DF5C2E3BD /* UIImage+Extension.m */,
+				CF3FFB85816239E341AFC803B15B50D3 /* Pod */,
+				C754C9E1A592BF62BA4528B913FABE58 /* Support Files */,
+			);
+			name = AYICamera;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */,
+				537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */,
+				ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */,
+				986CB32629319F7F2256662716334944 /* MASConstraint.m */,
+				77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */,
+				A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */,
+				FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */,
+				C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */,
+				611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */,
+				303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */,
+				AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */,
+				96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */,
+				0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */,
+				1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */,
+				6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */,
+				5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */,
+				B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */,
+				F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */,
+				2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */,
+				7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */,
+				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
+				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
+				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
+				D253588BAFB01A953DA60C10CD597F84 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		B04A3A75A60E3D85C4AF62997ECCC4BA /* Pods-AYICamera_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A5004F27CE7E9CC5D3F421B1C34C3FDC /* Info.plist */,
+				911C7FE2F1F3E92B2CC121FAD9495BE6 /* Pods-AYICamera_Tests.modulemap */,
+				99A838CCAFBEBC55739E68C3CA2661F5 /* Pods-AYICamera_Tests-acknowledgements.markdown */,
+				AEBF7562EEE7A85854D23E3A67925FA9 /* Pods-AYICamera_Tests-acknowledgements.plist */,
+				099987BA4891830A48D926C6785CDB34 /* Pods-AYICamera_Tests-dummy.m */,
+				AF9E9BB99C0BC88C977DB9C26392F7AF /* Pods-AYICamera_Tests-frameworks.sh */,
+				00E9AFB9B08F9C42E09E9C6CE24BC626 /* Pods-AYICamera_Tests-resources.sh */,
+				5D7BA5FF728F325207E5404A49C3D222 /* Pods-AYICamera_Tests-umbrella.h */,
+				69C7748E2EEBA460652A1D2178E2B2E1 /* Pods-AYICamera_Tests.debug.xcconfig */,
+				601EA06FC060205623518891329AF7F8 /* Pods-AYICamera_Tests.release.xcconfig */,
+			);
+			name = "Pods-AYICamera_Tests";
+			path = "Target Support Files/Pods-AYICamera_Tests";
+			sourceTree = "<group>";
+		};
+		B9B990CB89F1293B1019760FE8E4E729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07604C2AF4157E84DFD492C5D19B6B80 /* AYICamera.framework */,
+				3E835DE789E4A97BE79C861D72250EBE /* Masonry.framework */,
+				54EBF6C5782F13C0596469AECC3ACBB0 /* Pods_AYICamera_Example.framework */,
+				454A6FC07C96F21F25C4AC86A51D53B9 /* Pods_AYICamera_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCFFCEA0A26E02610C10D9DADE22A35A /* Pods-AYICamera_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4E3483E57C259A75EC1D2318645061E4 /* Info.plist */,
+				3697DB2528934D36B2B59F7BDEB626C3 /* Pods-AYICamera_Example.modulemap */,
+				8384FE05BE37F15A7732451AC48C26CB /* Pods-AYICamera_Example-acknowledgements.markdown */,
+				CD05039AA0E3D34381A890F0BF9EB030 /* Pods-AYICamera_Example-acknowledgements.plist */,
+				E8579D44B82EBE6938C432EE03398BEF /* Pods-AYICamera_Example-dummy.m */,
+				57C8D0F0AB50CD1ED0F218D62D1231D9 /* Pods-AYICamera_Example-frameworks.sh */,
+				D3B155B221D10AA704E696F7CE2E87AD /* Pods-AYICamera_Example-resources.sh */,
+				F62CEB3BEA77B536EC43324D0071B074 /* Pods-AYICamera_Example-umbrella.h */,
+				9F84C06026AD97602BE215AB97C22D3A /* Pods-AYICamera_Example.debug.xcconfig */,
+				8FE861922A8DC7E3AF1215CF6D8B1222 /* Pods-AYICamera_Example.release.xcconfig */,
+			);
+			name = "Pods-AYICamera_Example";
+			path = "Target Support Files/Pods-AYICamera_Example";
+			sourceTree = "<group>";
+		};
+		C754C9E1A592BF62BA4528B913FABE58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F20E88935FBF11833E591C907A7C5E7 /* AYICamera.modulemap */,
+				9FD31082D438B3B101FBF031E75DA27F /* AYICamera.xcconfig */,
+				58F8BDDEB178EAABEFA5B3A88E80C182 /* AYICamera-dummy.m */,
+				9D6094FC4FC11FB04DB7385EC5425D6B /* AYICamera-prefix.pch */,
+				D22AAC6957A7A380EA9D336C135A8A4E /* AYICamera-umbrella.h */,
+				A7600D67217F7A918D07722165FD9920 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AYICamera";
+			sourceTree = "<group>";
+		};
+		CF3FFB85816239E341AFC803B15B50D3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				35D709CA614946BDC95574E77BD76674 /* AYICamera.podspec */,
+				86761210514C66551793EA125690E59C /* LICENSE */,
+				DDD16DFDAF71CA438F58E82C73C16177 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */,
+				36C40591902578632718E317104564A2 /* Masonry.modulemap */,
+				3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */,
+				818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */,
+				E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */,
+				1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		DC7E422848DE4538BD67FA85E4EF5FAF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */,
+				B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F37A4E2C83115D2D40A9E397AEE1514B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F3C2FAC8DD88338C99643FEF0C56B85 /* AYICamera */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E4AF2BBE03E6199308BCF78FEFE8189 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98742B1D07F2CC4676242414B13058C8 /* MASCompositeConstraint.h in Headers */,
+				FF485451BC29CFE5DA7C08E6E2D05DD7 /* MASConstraint+Private.h in Headers */,
+				E84DB79CFFDEEB264130A8F05B80DCDA /* MASConstraint.h in Headers */,
+				8F94EF795FECBDEBDF088FC265114CEE /* MASConstraintMaker.h in Headers */,
+				5DEBDD8C915E699BBD39B813CE479360 /* MASLayoutConstraint.h in Headers */,
+				C4D411B3A909BC4BC5739FA7E8BF4804 /* Masonry-umbrella.h in Headers */,
+				A2383A0BA428EA857201235AC797D843 /* Masonry.h in Headers */,
+				2A2C0E3245868D4EEB91EA3557FCA7BA /* MASUtilities.h in Headers */,
+				852FF73597B57645D1E54B29CBFE1AA0 /* MASViewAttribute.h in Headers */,
+				321CC7E95D0996A789F0CB5B7805070F /* MASViewConstraint.h in Headers */,
+				E11EA934954FAC66C3AE552148EA1DF4 /* NSArray+MASAdditions.h in Headers */,
+				94AAA79064A390947EB5EAA1AAAE7CC7 /* NSArray+MASShorthandAdditions.h in Headers */,
+				171301FDB08CF18F565C59C8C16FCBF8 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				2D1168353A2103859ECC2DABC4F3E20D /* View+MASAdditions.h in Headers */,
+				8D3DDF8F913D09139409372ECA12C1BF /* View+MASShorthandAdditions.h in Headers */,
+				C8CDA8024CC8C26CCCEA993B51B5CF40 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6570847D47AFF27B276E2917914ADF3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4228A717717D663FCD50CA18AFC3F3 /* Pods-AYICamera_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBFE96D8E88B6F38E04818CB3CCA993 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36C40AE9AD31CF574FBECA42321550D /* AYICamera-umbrella.h in Headers */,
+				A48ECCEFB7BF598F577AEF5C8638FFD6 /* CameraView.h in Headers */,
+				FDE63BB201B8FBA5F589855C07C337A7 /* CaptureSessionCoordinator.h in Headers */,
+				4259A9DA6659C8558BDA567DAE0FB5BB /* CaptureSessionPipelineViewController.h in Headers */,
+				0479FD8A1DC51F645BE6A87C75C5FB8C /* PermissionsManager.h in Headers */,
+				0965179D4E50BE10BDABFD8980548D00 /* PreviewPhotoViewController.h in Headers */,
+				9F3D60ED5C6081DC2D522BEE478FDBA5 /* UIImage+Extension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3618D515DE390A10BFEED7C83A7218 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF432F45E35379DC2A6503191F25CCB9 /* Pods-AYICamera_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		334D86D00D50C25A5A381269A36B6A3B /* AYICamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6A14675EA8A9E84878AECB3A207791 /* Build configuration list for PBXNativeTarget "AYICamera" */;
+			buildPhases = (
+				750B9FA6E498B439BD2D883E708655F8 /* Sources */,
+				48940C415C61A318397F83F99C0D319E /* Frameworks */,
+				CEBFE96D8E88B6F38E04818CB3CCA993 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D5960BAEFCE5D0252F9878A0A7326BE /* PBXTargetDependency */,
+			);
+			name = AYICamera;
+			productName = AYICamera;
+			productReference = 07604C2AF4157E84DFD492C5D19B6B80 /* AYICamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A38A08D1248F6FF2A36C8EB2BCB4A973 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2186721791D7BFD3BD42DF69D70565C /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				8E8DA80BB3D4D6EA248AAE2C55D88764 /* Sources */,
+				4AA258CA58D75587894145E8D2EDF6A7 /* Frameworks */,
+				1E4AF2BBE03E6199308BCF78FEFE8189 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 3E835DE789E4A97BE79C861D72250EBE /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4EDB9D720EAD6111C2BD0741AA3C5C2 /* Pods-AYICamera_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0332E8115F9589860F37D28AC845F7 /* Build configuration list for PBXNativeTarget "Pods-AYICamera_Tests" */;
+			buildPhases = (
+				339257EDED5386F9F91D34B4063E084B /* Sources */,
+				D0EAC52F65DC1696A95ED83B4A74854D /* Frameworks */,
+				6570847D47AFF27B276E2917914ADF3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A48B8C7F9676310BA6FAD83FBF3DC81C /* PBXTargetDependency */,
+			);
+			name = "Pods-AYICamera_Tests";
+			productName = "Pods-AYICamera_Tests";
+			productReference = 454A6FC07C96F21F25C4AC86A51D53B9 /* Pods_AYICamera_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E896D99BB6CE5AFDEF2357AA5D85EAD3 /* Pods-AYICamera_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805ECF60DF5C47E44E042F298F133044 /* Build configuration list for PBXNativeTarget "Pods-AYICamera_Example" */;
+			buildPhases = (
+				88A785C52F0B860C578C59A3336C0953 /* Sources */,
+				D5E08F7C7774B7908606C62C8505748F /* Frameworks */,
+				FB3618D515DE390A10BFEED7C83A7218 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61BAD36F019AA66E9C625529FD551AE /* PBXTargetDependency */,
+				15DE5F6C32B7A57D2984EC6A19D89BD3 /* PBXTargetDependency */,
+			);
+			name = "Pods-AYICamera_Example";
+			productName = "Pods-AYICamera_Example";
+			productReference = 54EBF6C5782F13C0596469AECC3ACBB0 /* Pods_AYICamera_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B9B990CB89F1293B1019760FE8E4E729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				334D86D00D50C25A5A381269A36B6A3B /* AYICamera */,
+				A38A08D1248F6FF2A36C8EB2BCB4A973 /* Masonry */,
+				E896D99BB6CE5AFDEF2357AA5D85EAD3 /* Pods-AYICamera_Example */,
+				E4EDB9D720EAD6111C2BD0741AA3C5C2 /* Pods-AYICamera_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339257EDED5386F9F91D34B4063E084B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEC770F748FE75F407AE58298728756 /* Pods-AYICamera_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750B9FA6E498B439BD2D883E708655F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2FC872E531876F666DD442155D369C /* AYICamera-dummy.m in Sources */,
+				E8E3D01ABFCAE9DBBFE9EF591DD68FD2 /* CameraView.m in Sources */,
+				8D6BB297C04783726833999C9BE7D86B /* CaptureSessionCoordinator.m in Sources */,
+				012D8C5526D01F92F06CAA28D98CCC6D /* CaptureSessionPipelineViewController.m in Sources */,
+				584AF31CE7EFE4DD6403751FFD585416 /* PermissionsManager.m in Sources */,
+				04DFBCC4D337320125BE2BC4CA005368 /* PreviewPhotoViewController.m in Sources */,
+				33339E126D1AE4539934A0B50D4236F9 /* UIImage+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A785C52F0B860C578C59A3336C0953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA94B11742CA59B9EEF290AB35FD0F9 /* Pods-AYICamera_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8DA80BB3D4D6EA248AAE2C55D88764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1039FA6BC4BB20B4C2A1FE19A3889745 /* MASCompositeConstraint.m in Sources */,
+				3DA1AC40C44BC837F2406D50967E3848 /* MASConstraint.m in Sources */,
+				7CDFE9F6C79292A9CD6E89BFC545FEA6 /* MASConstraintMaker.m in Sources */,
+				A0337FE26202FFFF7436957134ABE621 /* MASLayoutConstraint.m in Sources */,
+				75B85DF916F9D5AAEA423941EEF0DDCC /* Masonry-dummy.m in Sources */,
+				90CC97803BECC901526F561C56416A5A /* MASViewAttribute.m in Sources */,
+				A8A1356EB8B1A99FB34CD2B1E3E04EC3 /* MASViewConstraint.m in Sources */,
+				12842D90C0AFCA1F3AC28C4B5F0FEC86 /* NSArray+MASAdditions.m in Sources */,
+				65D15B3A0BFEEDBDDB45A500DB25329F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A7618C668614E01ED7C21B6C2E34F274 /* View+MASAdditions.m in Sources */,
+				04DD22491046C5B958465D96A3F5516D /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D5960BAEFCE5D0252F9878A0A7326BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = A38A08D1248F6FF2A36C8EB2BCB4A973 /* Masonry */;
+			targetProxy = 6388920427040F7EC18780F66831A5ED /* PBXContainerItemProxy */;
+		};
+		15DE5F6C32B7A57D2984EC6A19D89BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = A38A08D1248F6FF2A36C8EB2BCB4A973 /* Masonry */;
+			targetProxy = 20C5A332FD10FFA28AABF716C3960151 /* PBXContainerItemProxy */;
+		};
+		A48B8C7F9676310BA6FAD83FBF3DC81C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AYICamera_Example";
+			target = E896D99BB6CE5AFDEF2357AA5D85EAD3 /* Pods-AYICamera_Example */;
+			targetProxy = FF20B7628F608D1795D5525FCF45A624 /* PBXContainerItemProxy */;
+		};
+		E61BAD36F019AA66E9C625529FD551AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYICamera;
+			target = 334D86D00D50C25A5A381269A36B6A3B /* AYICamera */;
+			targetProxy = A12EE6694422D9DB3D4642412E02E786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0037636A7240ABA89A9A03840C3D9A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11C66BFDEAFBF5A17A3E21794D250CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601EA06FC060205623518891329AF7F8 /* Pods-AYICamera_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYICamera_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYICamera_Tests/Pods-AYICamera_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		188B590BD083864A6504E278A4EC988F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C7748E2EEBA460652A1D2178E2B2E1 /* Pods-AYICamera_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYICamera_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYICamera_Tests/Pods-AYICamera_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6546E2A1A380B723219A4C2979EA8A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD31082D438B3B101FBF031E75DA27F /* AYICamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYICamera/AYICamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYICamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYICamera/AYICamera.modulemap";
+				PRODUCT_MODULE_NAME = AYICamera;
+				PRODUCT_NAME = AYICamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		761413741C605C1F4BCD7CB48EB535CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		947DFE059821903BD46D20866ABF588D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE861922A8DC7E3AF1215CF6D8B1222 /* Pods-AYICamera_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYICamera_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYICamera_Example/Pods-AYICamera_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D941E565A9895BEEF237CF769F9269D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F84C06026AD97602BE215AB97C22D3A /* Pods-AYICamera_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYICamera_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYICamera_Example/Pods-AYICamera_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCEBE5EEC498A30A5147E6038C27D35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD31082D438B3B101FBF031E75DA27F /* AYICamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYICamera/AYICamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYICamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYICamera/AYICamera.modulemap";
+				PRODUCT_MODULE_NAME = AYICamera;
+				PRODUCT_NAME = AYICamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B6A14675EA8A9E84878AECB3A207791 /* Build configuration list for PBXNativeTarget "AYICamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEBE5EEC498A30A5147E6038C27D35F /* Debug */,
+				6546E2A1A380B723219A4C2979EA8A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0332E8115F9589860F37D28AC845F7 /* Build configuration list for PBXNativeTarget "Pods-AYICamera_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188B590BD083864A6504E278A4EC988F /* Debug */,
+				11C66BFDEAFBF5A17A3E21794D250CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805ECF60DF5C47E44E042F298F133044 /* Build configuration list for PBXNativeTarget "Pods-AYICamera_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D941E565A9895BEEF237CF769F9269D7 /* Debug */,
+				947DFE059821903BD46D20866ABF588D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2186721791D7BFD3BD42DF69D70565C /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0037636A7240ABA89A9A03840C3D9A82 /* Debug */,
+				761413741C605C1F4BCD7CB48EB535CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

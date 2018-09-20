@@ -7,7 +7,8 @@
 //
 
 #import "AYIViewController.h"
-
+#import "PreviewPhotoViewController.h"
+#import "CaptureSessionPipelineViewController.h"
 @interface AYIViewController ()
 
 @end
@@ -17,8 +18,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
+- (IBAction)openCamera:(UIBarButtonItem *)sender {
+    //打开照相机
+    [CaptureSessionPipelineViewController show:self takePhotoOfMax:3];
+
+}
+
+- (void)previewImage{
+        __weak typeof(self) weakSelf = self;
+        PreviewPhotoViewController *vc = [[PreviewPhotoViewController alloc]initWithCallBack:^(NSArray<UIImage *> *images) {
+            [weakSelf dismissViewControllerAnimated:YES completion:nil];
+        }];
+        [self presentViewController:vc animated:YES completion:nil];
+}
+
+
+
 
 - (void)didReceiveMemoryWarning
 {

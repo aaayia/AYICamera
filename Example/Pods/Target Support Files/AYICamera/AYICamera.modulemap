@@ -1,0 +1,6 @@
+framework module AYICamera {
+  umbrella header "AYICamera-umbrella.h"
+
+  export *
+  module * { export * }
+}

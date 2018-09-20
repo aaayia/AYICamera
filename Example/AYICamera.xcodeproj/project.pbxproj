@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17F0981663D92EAF05787B91 /* AYICamera.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AYICamera.podspec; path = ../AYICamera.podspec; sourceTree = "<group>"; };
+		17F0981663D92EAF05787B91 /* AYICamera.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AYICamera.podspec; path = ../AYICamera.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		28784AA622CC7A08D1DF12C4 /* Pods-AYICamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYICamera_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AYICamera_Example/Pods-AYICamera_Example.release.xcconfig"; sourceTree = "<group>"; };
 		288E8572B707684DFE087B01 /* Pods-AYICamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYICamera_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AYICamera_Tests/Pods-AYICamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AYICamera_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYICamera_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +62,9 @@
 		69DD33FB298A5107290BF388 /* Pods_AYICamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYICamera_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		90242A5F997182CA67B653C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		90242A5F997182CA67B653C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A1F57E1FC49FE3F393884691 /* Pods_AYICamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYICamera_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C90F344FEFD7F525C7E74921 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C90F344FEFD7F525C7E74921 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D26E1685BCDF45679211C568 /* Pods-AYICamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYICamera_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AYICamera_Example/Pods-AYICamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F18431FBDA14F88719AAB5B9 /* Pods-AYICamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYICamera_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AYICamera_Tests/Pods-AYICamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -320,10 +320,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AYICamera_Example/Pods-AYICamera_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AYICamera/AYICamera.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AYICamera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

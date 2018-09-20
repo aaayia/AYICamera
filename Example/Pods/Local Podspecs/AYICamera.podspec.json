@@ -1,0 +1,27 @@
+{
+  "name": "AYICamera",
+  "version": "0.1.0",
+  "summary": "iOS简单的照相机.",
+  "description": "iOS简单的照相机.",
+  "homepage": "https://github.com/aaayia/AYICamera",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aaayia": "twilightzzy@126.com"
+  },
+  "source": {
+    "git": "https://github.com/aaayia/AYICamera.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AYICamera/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}
