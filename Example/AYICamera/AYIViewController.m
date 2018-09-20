@@ -31,6 +31,7 @@
         PreviewPhotoViewController *vc = [[PreviewPhotoViewController alloc]initWithCallBack:^(NSArray<UIImage *> *images) {
             [weakSelf dismissViewControllerAnimated:YES completion:nil];
         }];
+    vc.previewImage = [UIImage imageNamed:@"imageName.png"];
         [self presentViewController:vc animated:YES completion:nil];
 }
 

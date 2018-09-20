@@ -19,7 +19,24 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'AYICamera'
 ```
+## Code
 
+打开照相机
+
+```
+    [CaptureSessionPipelineViewController show:self takePhotoOfMax:3];
+```
+
+预览图片
+
+```
+__weak typeof(self) weakSelf = self;
+    PreviewPhotoViewController *vc = [[PreviewPhotoViewController alloc]initWithCallBack:^(NSArray<UIImage *> *images) {
+        [weakSelf dismissViewControllerAnimated:YES completion:nil];
+    }];
+    vc.previewImage = [UIImage imageNamed:@"imageName.png"];
+    [self presentViewController:vc animated:YES completion:nil];
+```
 ## Author
 
 aaayia, twilightzzy@126.com
@@ -27,3 +44,5 @@ aaayia, twilightzzy@126.com
 ## License
 
 AYICamera is available under the MIT license. See the LICENSE file for more info.
+
+
