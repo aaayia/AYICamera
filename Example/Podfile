@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AYICamera_Example' do
+  pod 'AYICamera', :path => '../'
+
+  target 'AYICamera_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
